@@ -1,0 +1,161 @@
+body {
+    font-family: var(--fonte-familia-logo);
+    background: rgba(185, 157, 136, 0.767);  
+}
+h1{
+ text-align: center;
+ font-family: 'Montserrat';
+ font-size: 50px;
+ color: rgb(121, 96, 96);
+}
+h1 img{
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+h1 p {
+    font-size: 30px;
+    text-align: center;
+}
+nav a:hover{
+  color:cyan
+}
+.menu{ 
+    text-align: center;
+    display:block;
+}
+li{
+    margin-top:  20px;
+    text-align: center;
+    display: inline;
+    margin: 15px 15px 15px;
+}
+ul{
+    padding-top: 20px;
+    cursor: pointer; 
+}
+li a{
+    text-decoration: none;
+    color: rgb(37, 35, 35);
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.2);
+    border-radius: 40px;
+    font-size: 35px;   
+}
+form {
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+form input{
+    margin: 10px;
+}
+.menucadastro a:hover{
+    color:cyan;
+    font-display:top;  
+    margin-left: 60px;     
+}
+.menucadastro a{
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 30px;   
+}
+
+.lancamento, #acao,#comedia,#terror {
+   display: inline-block;
+   width:auto;       
+}
+#acao{
+    margin-left: 25px;
+    width: 33%;
+}
+#comedia{
+    width: 38%; 
+}
+#terror{
+    width: 20%;
+}
+h2:hover{
+  color: cyan;
+}
+p{
+    margin:20px 5px;
+    font-size: 30px;
+    text-align:center;
+}
+button:active{   
+    margin-left: 10px;
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;   
+}
+.pesquisa{
+    margin:30px;  
+}
+h5{
+    font-size: 25px;
+    text-align: center;
+}
+.imagemfinal{
+    margin-left: 18%;
+}
+.copyright{
+    text-shadow:0.1em 0.1em 0.15em #2a52be ;
+    color: #323849;
+}
+.filmes ul:hover{
+    font-size: 20px;
+    margin: auto;  
+}
+.filmes ul a{
+    margin: 25px;
+    color: rgb(14, 13, 13);
+    transform: scale(1.2);
+}
+  .menu:after, .menu:before {
+    position: absolute;
+    top: 0;
+    color: #16a085;
+    font-size: 42px;
+    animation: 2s linear 0s normal none infinite;
+  }
+  .menu ul {
+    margin-top: 0;
+    padding-left: 110px;
+    text-align: left;
+    list-style: none;
+    animation: 6s linear 0s normal none infinite change;
+  }
+  ul li {
+    line-height: 40px;
+    margin: 150px;
+  }
+  @keyframes opacity {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes change {
+    0%, 20%, 100% {
+      transform: translateY(0);
+    }
+    12%,29% {
+      transform: translateY(-25%);
+    }
+    34%,46% {
+      transform: translateY(-50%);
+    }
+    51%,63% {
+      transform: translateY(-75%);
+    }
+    68%,80% {
+      transform: translateY(-50%);
+    }
+    85%,97% {
+      transform: translateY(-25%);
+    }
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <div class="menucadastro">
+            <li><a href="Projeto_para_apresentar.html">MENU PRINCIPAL</a></li>
+            <li><a href="filmes.html"></a></li>
+        </div>
+        
+    </header>
+    <main>
+        
+        <form >
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" required="required" name="text" pattern="[A-z\s]{8,20}$"  placeholder="Insira nome e sobrenome"/>         
+            <label for="email">Email</label>
+            <input type="email" required="required" class="input-text" value="" name="email"
+            placeholder="name@email.com" pattern="[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}$" />
+            <button  type="submit" class="botao" >Enviar</button>
+            <input type="search" class="pesquisa" type="submit" placeholder="Pesquise seu filme ">
+            <input onclick="window.location.href = 'filmes.html';" type="submit" value="Pesquisa"/>
+            <label for="data" tapy="date"></label>
+            
+        </form>
+        
+    </main>
+     <script src="./validar.js" tapy="module"></script>
+    <h1>
+        <img src="banner.jfif" alt="filmes">
+    </h1>
+    
+        <ul class="lancamentos">
+            <div id="acao">
+             <h2>Filme de Ação </h2>
+             <img src="acao2.jfif"> 
+            </div>
+           
+            <div id="comedia">
+              <h2>Filme comédia</h2>
+              <img src="comedia2.jfif">
+            </div>
+
+            <div id="terror">
+             <h2>Filme de terror </h2>
+             <img src="terror.jfif">
+            </div>
+        </ul>
+       
+</body>
+</html>
